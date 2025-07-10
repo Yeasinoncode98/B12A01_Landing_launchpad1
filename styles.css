@@ -34,7 +34,11 @@ body {
 .logo {
     font-weight: bold;
     color: #5c4bff;
-    font-size: 20px;
+    font-size: 34px;
+    margin-left: 130px;
+    margin-top: 50px;
+    font-family: 'Raleway', sans-serif;
+
 }
 
 
@@ -46,6 +50,14 @@ body {
     border-radius: 8px;
     font-weight: 600;
     font-size: 14px;
+    margin-right: 130px;
+    margin-top: 50px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.signup-btn:hover {
+    background-color: goldenrod;
 }
 
 
@@ -78,6 +90,11 @@ body {
     border-radius: 8px;
     font-weight: 600;
     font-size: 14px;
+    margin-top: 37px;
+}
+
+.cta-btn:hover {
+    background-color: goldenrod;
 }
 
 /* section */
@@ -117,6 +134,7 @@ body {
     color: #777;
     line-height: 1.6;
     margin-bottom: 30px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .action-btn {
@@ -128,10 +146,11 @@ body {
     font-weight: 600;
     border-radius: 8px;
     transition: background 0.3s ease;
+    font-family: 'Raleway', sans-serif;
 }
 
 .action-btn:hover {
-    background-color: #4837e0;
+    background-color: goldenrod;
 }
 
 
@@ -398,4 +417,51 @@ body {
 
 .contact-form button:hover {
     background-color: goldenrod;
+}
+
+/*Footer Section */
+
+.main-footer {
+    background-color: white;
+    text-align: center;
+    padding: 80px 20px;
+    border-top: 1px solid #eee;
+
+}
+
+.footer-logo {
+    font-size: 80px;
+    font-weight: 700;
+    color: #4E47FF;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 20px;
+}
+
+.footer-text {
+    font-size: 15px;
+    color: #888;
+    max-width: 600px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer-links a {
+    color: #888;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+
+.copyright {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    margin-top: 30px;
 }
