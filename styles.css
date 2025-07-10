@@ -9,6 +9,7 @@ body {
 
 }
 
+/* Header part */
 
 .hero {
     background-image: url('./Assets/Hero-bg.png');
@@ -97,7 +98,7 @@ body {
     background-color: goldenrod;
 }
 
-/* section */
+/* Action section */
 
 .action-section {
     background-color: #f4f6fc;
@@ -213,7 +214,8 @@ body {
 }
 
 
-/*Section */
+/* Customer review Section */
+
 .testimonials-section {
     background-color: #f4f6fc;
     padding: 100px 40px;
@@ -295,6 +297,7 @@ body {
 }
 
 /* focus section */
+
 .focus-section {
     background-color: #f4f6fc;
     padding: 100px 20px;
@@ -350,6 +353,7 @@ body {
 }
 
 /* contact Area */
+
 .contact-section {
     background-color: #f4f6fc;
     padding: 100px 40px;
