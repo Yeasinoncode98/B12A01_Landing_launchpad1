@@ -274,3 +274,57 @@ body {
     font-size: 12px;
     color: #777;
 }
+
+/* focus section */
+.focus-section {
+    background-color: #f4f6fc;
+    padding: 100px 20px;
+    text-align: center;
+
+}
+
+.focus-content {
+    background-color: white;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px 40px;
+    border-radius: 12px;
+}
+
+.focus-content h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 15px;
+}
+
+.focus-content p {
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.focus-btn {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 26px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    text-decoration: none;
+
+}
+
+.focus-btn:hover {
+    background-color: goldenrod;
+}
+
+.focus-image img {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 30px;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.1);
+}
