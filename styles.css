@@ -381,7 +381,7 @@ body {
     font-weight: 700;
     color: #1a1a1a;
     margin-top: 110px;
-    margin-left: 50px;
+    margin-left: 75px;
 }
 
 .contact-form {
@@ -389,6 +389,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
+
 }
 
 .contact-form label {
@@ -404,6 +405,7 @@ body {
     border: 1px solid #ccc;
     border-radius: 8px;
     outline: none;
+    width: 450px;
 }
 
 .contact-form textarea {
@@ -419,6 +421,7 @@ body {
     border: none;
     border-radius: 8px;
     cursor: pointer;
+    width: 450px;
 }
 
 .contact-form button:hover {
